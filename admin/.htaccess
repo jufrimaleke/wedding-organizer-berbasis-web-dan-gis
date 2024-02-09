@@ -1,0 +1,23 @@
+DirectoryIndex coba.php index.php login.php 
+Options -Indexes 
+
+
+RewriteEngine On
+
+
+RewriteRule ^dashboard$ dashboard.php 
+RewriteRule ^profile$ profile.php
+RewriteRule ^kategori$ kategori_data.php 
+RewriteRule ^tambah_k$ kategori_tambah.php
+RewriteRule ^edit_k$ kategori_edit.php
+RewriteRule ^produk$ produk_data.php
+RewriteRule ^edit$ produk_edit.php
+RewriteRule ^tambah$ produk_tambah.php
+RewriteRule ^tambah_wo$ wo_tambah.php
+RewriteRule ^edit_wo$ wo_edit.php
+RewriteRule ^wo$ wo_data.php
+RewriteRule ^wotambah$ wo_tambah.php
+RewriteRule ^kecamatan$ kecamatan_data.php
+RewriteRule ^tambah_kec$ kecamatan_tambah.php
+
+

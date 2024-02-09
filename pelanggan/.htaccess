@@ -1,0 +1,10 @@
+DirectoryIndex coba.php index.php login.php 
+Options -Indexes 
+
+
+RewriteEngine On
+
+
+RewriteRule ^dashboard$ dashboard.php 
+RewriteRule ^product$ produk.php
+RewriteRule ^wo$ daftar_wo.php
